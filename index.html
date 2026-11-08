@@ -108,6 +108,10 @@ h2{font-weight:900;font-size:clamp(48px,8.5vw,140px);line-height:.88;letter-spac
 h2 .it{text-transform:none;font-weight:500;color:var(--acc);letter-spacing:-.01em}
 .exp-head p{color:var(--mute);max-width:34ch}
 .job{display:grid;grid-template-columns:90px 1.3fr 1fr 170px;gap:24px;align-items:baseline;padding:38px 0;border-top:1px solid var(--line);position:relative;transition:padding .5s cubic-bezier(.2,.7,.2,1)}
+.papers .jobs{margin-top:56px}
+.papers .job{grid-template-columns:90px minmax(0,1fr)}
+@media (max-width:900px){.papers .job{grid-template-columns:minmax(0,1fr)}}
+.papers .job h3{font-size:clamp(22px,2.2vw,32px);letter-spacing:-.03em;line-height:1.15;font-weight:500;max-width:46ch}
 .job:last-child{border-bottom:1px solid var(--line)}
 .job::before{content:"";position:absolute;left:0;right:0;top:0;height:0;background:var(--acc);transition:height .5s cubic-bezier(.2,.7,.2,1);z-index:-1}
 .job:hover{color:#0c0c0b}
@@ -210,6 +214,7 @@ footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;paddin
     <li><a href="#work">Опыт</a></li>
     <li><a href="#skills">Компетенции</a></li>
     <li><a href="#edu">Образование</a></li>
+    <li><a href="#papers">Научные работы</a></li>
   </ul>
   <a class="cta" href="#contact">Связаться</a>
 </nav>
@@ -349,6 +354,21 @@ footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;paddin
   </div>
 </section>
 
+<section class="sec wrap papers" id="papers">
+  <div class="label mono">05 — Научные работы</div>
+  <h2 class="reveal-h"><span class="line"><span>Научные</span></span><span class="line"><span class="it">работы</span></span></h2>
+  <div class="jobs">
+    <article class="job">
+      <div class="job-n">01</div>
+      <h3>Комплексная система управления малодебитным фондом газовых скважин на основе Well Health Index и автоматического пускателя Pro-Seal M-9EE</h3>
+    </article>
+    <article class="job">
+      <div class="job-n">02</div>
+      <h3>Периодического режима работы малодебитных скважин, альтернатива дросселированния</h3>
+    </article>
+  </div>
+</section>
+
 <section class="sec wrap quote">
   <div class="quote-grid">
   <div class="quote-txt">
@@ -365,7 +385,7 @@ footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;paddin
 </section>
 
 <section class="sec contact wrap" id="contact">
-  <div class="label mono">05 — Контакты · открыт к предложениям</div>
+  <div class="label mono">06 — Контакты · открыт к предложениям</div>
   <div class="big"><span class="line"><span>Вакансии</span></span><span class="line"><span class="it">и проекты</span></span><span class="line"><span>в отрасли</span></span></div>
   <div class="c-grid">
     <div class="c-i"><span class="mono">Телефон</span><span class="v" id="c-phone">+998 90 811 50 59</span><button class="copy" data-copy="c-phone">Копировать</button></div>
