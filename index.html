@@ -109,14 +109,9 @@ h2 .it{text-transform:none;font-weight:500;color:var(--acc);letter-spacing:-.01e
 .exp-head p{color:var(--mute);max-width:34ch}
 .job{display:grid;grid-template-columns:90px 1.3fr 1fr 170px;gap:24px;align-items:baseline;padding:38px 0;border-top:1px solid var(--line);position:relative;transition:padding .5s cubic-bezier(.2,.7,.2,1)}
 .papers .jobs{margin-top:56px}
-.sup{margin-top:72px}
-.sup .mono{color:var(--mute)}
-.sup-g{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin-top:24px;border-top:1px solid var(--line)}
-.sup-i{padding:32px 32px 32px 0}
-.sup-i+.sup-i{border-left:1px solid var(--line);padding-left:32px}
-.sup-i h3{font-size:clamp(22px,2vw,28px);font-weight:600;letter-spacing:-.03em;line-height:1.1;margin-bottom:12px}
-.sup-i p{color:var(--mute);max-width:44ch}
-@media (max-width:820px){.sup-g{grid-template-columns:minmax(0,1fr)}.sup-i+.sup-i{border-left:0;border-top:1px solid var(--line);padding-left:0}}
+.papers .job-co{grid-column:2}
+.papers .job-co small{max-width:60ch}
+@media (max-width:900px){.papers .job-co{grid-column:auto}}
 .papers .job{grid-template-columns:90px minmax(0,1fr)}
 @media (max-width:900px){.papers .job{grid-template-columns:minmax(0,1fr)}}
 .papers .job h3{font-size:clamp(22px,2.2vw,32px);letter-spacing:-.03em;line-height:1.15;font-weight:500;max-width:46ch}
@@ -353,24 +348,13 @@ footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;paddin
     <article class="job">
       <div class="job-n">01</div>
       <h3>Комплексная система управления малодебитным фондом газовых скважин на основе Well Health Index и автоматического пускателя Pro-Seal M-9EE</h3>
+      <div class="job-co">Научный руководитель: Усманов Сергей Александрович<small>Начальник смены ПДС ЦДГ «Хаузак-Западный Шады», ЛУКОЙЛ Узбекистан Оперейтинг Компани</small></div>
     </article>
     <article class="job">
       <div class="job-n">02</div>
       <h3>Периодического режима работы малодебитных скважин, альтернатива дросселированния</h3>
+      <div class="job-co">Научный руководитель: Гуляев Виктор Анатольевич<small>Начальник УДПиТГ ЦДГ «Хаузак-Западный Шады», ЛУКОЙЛ Узбекистан Оперейтинг Компани</small></div>
     </article>
-  </div>
-  <div class="sup">
-    <div class="mono">Научные руководители</div>
-    <div class="sup-g">
-      <div class="sup-i">
-        <h3>Усманов Сергей Александрович</h3>
-        <p>Начальник смены ПДС ЦДГ «Хаузак-Западный Шады», ЛУКОЙЛ Узбекистан Оперейтинг Компани</p>
-      </div>
-      <div class="sup-i">
-        <h3>Гуляев Виктор Анатольевич</h3>
-        <p>Начальник УДПиТГ ЦДГ «Хаузак-Западный Шады», ЛУКОЙЛ Узбекистан Оперейтинг Компани</p>
-      </div>
-    </div>
   </div>
 </section>
 
