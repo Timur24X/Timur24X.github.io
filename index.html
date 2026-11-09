@@ -105,6 +105,14 @@ section{position:relative}
 .statement .w{opacity:1}
 .statement .it{font-size:1.08em}
 
+/* PROFILE CARDS */
+.prof-c{display:grid;grid-template-columns:1fr 1fr;margin-top:clamp(40px,5vw,72px);border-top:1px solid var(--line)}
+.prof-c div{padding:28px 32px 0 0;min-width:0}
+.prof-c div+div{padding-left:32px;border-left:1px solid var(--line)}
+.prof-c .mono{color:var(--acc);display:block;margin-bottom:12px}
+.prof-c p{font-size:clamp(18px,1.6vw,24px);line-height:1.4;max-width:40ch}
+@media (max-width:820px){.prof-c{grid-template-columns:1fr}.prof-c div+div{border-left:0;padding-left:0;border-top:1px solid var(--line);margin-top:28px}}
+
 /* STATS */
 .stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);margin-top:clamp(70px,9vw,130px)}
 .stat{padding:30px 24px 0 0;border-right:1px solid var(--line)}
@@ -287,7 +295,11 @@ footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;paddin
 
 <section class="sec wrap" id="about">
   <div class="label mono">01 — Профиль</div>
-  <p class="statement" id="statement">Три года на промысле в <span class="it acc">ЛУКОЙЛ</span> и SANEG. В SANEG: мониторинг и анализ работы скважин, подбор оборудования механизированной добычи в RodStar и Автотехнологе, разработка геолого-технических мероприятий и сопровождение их внедрения с промысловыми бригадами. В ЛУКОЙЛ: эксплуатация скважин и оборудования, исследования малодебитного газового фонда.</p>
+  <p class="statement" id="statement">Три года на промысле в <span class="it acc">ЛУКОЙЛ</span> и SANEG.</p>
+  <div class="prof-c">
+    <div><span class="mono">SANEG · 2023–2025</span><p>Мониторинг и анализ работы скважин, подбор оборудования механизированной добычи в RodStar и Автотехнологе, разработка геолого-технических мероприятий и сопровождение их внедрения с промысловыми бригадами.</p></div>
+    <div><span class="mono">ЛУКОЙЛ · с 2025</span><p>Эксплуатация скважин и оборудования, исследования малодебитного газового фонда.</p></div>
+  </div>
   <div class="stats">
     <div class="stat"><div class="num"><span class="count" data-to="3">3</span></div><p>места работы: ЛУКОЙЛ, SANEG, Губкинский университет</p></div>
     <div class="stat"><div class="num">4.2<sup>/5</sup></div><p>GPA бакалавриата, Губкинский университет</p></div>
