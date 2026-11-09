@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Схематичная иллюстрация установки подготовки газа: колонны, сепараторы, трубопроводы и фонтанная арматура">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef4f8"/>
+      <stop offset=".65" stop-color="#f4f7fa"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d7e2ea"/>
+      <stop offset=".45" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9d7e2"/>
+    </linearGradient>
+    <linearGradient id="metalV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#e3ebf1"/>
+      <stop offset="1" stop-color="#c3d2de"/>
+    </linearGradient>
+    <linearGradient id="fadeTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f7fa" stop-opacity="1"/>
+      <stop offset=".35" stop-color="#f4f7fa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6edf2"/>
+      <stop offset="1" stop-color="#f7f9fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="760" fill="url(#sky)"/>
+
+  <!-- far background: distant plant silhouettes -->
+  <g fill="#dfe8ee" stroke="none">
+    <rect x="40" y="430" width="180" height="120"/>
+    <rect x="70" y="360" width="16" height="80"/>
+    <rect x="120" y="330" width="12" height="110"/>
+    <rect x="250" y="450" width="140" height="100"/>
+    <rect x="1180" y="420" width="220" height="130"/>
+    <rect x="1220" y="300" width="14" height="130"/>
+    <rect x="1420" y="460" width="160" height="90"/>
+  </g>
+
+  <!-- distillation / absorber columns -->
+  <g stroke="#9db3c4" stroke-width="1.6" fill="url(#metal)">
+    <rect x="980" y="150" width="54" height="400" rx="27"/>
+    <rect x="1060" y="230" width="40" height="320" rx="20"/>
+    <rect x="1124" y="270" width="30" height="280" rx="15"/>
+  </g>
+  <g stroke="#b5c7d4" stroke-width="1" fill="none">
+    <path d="M980 210h54M980 270h54M980 330h54M980 390h54M980 450h54M980 510h54"/>
+    <path d="M1060 290h40M1060 350h40M1060 410h40M1060 470h40"/>
+  </g>
+  <!-- column platforms & ladders -->
+  <g stroke="#8ea6b9" stroke-width="1.4" fill="none">
+    <path d="M966 240h82M966 360h82M966 480h82"/>
+    <path d="M1048 160v390M1056 160v390"/>
+    <path d="M1048 175h8M1048 195h8M1048 215h8M1048 235h8M1048 255h8M1048 275h8M1048 295h8M1048 315h8M1048 335h8M1048 355h8M1048 375h8M1048 395h8M1048 415h8M1048 435h8M1048 455h8M1048 475h8M1048 495h8M1048 515h8M1048 535h8"/>
+  </g>
+
+  <!-- flare stack (cold, no flame) -->
+  <g stroke="#9db3c4" stroke-width="1.6" fill="#eef3f7">
+    <rect x="1290" y="110" width="12" height="440"/>
+  </g>
+  <g stroke="#b8c9d6" stroke-width="1" fill="none">
+    <path d="M1296 110 1250 550M1296 110 1342 550M1296 250 1262 550M1296 250 1330 550"/>
+    <path d="M1272 330h48M1262 430h68"/>
+  </g>
+
+  <!-- pipe rack -->
+  <g stroke="#8ea6b9" stroke-width="1.6" fill="none">
+    <path d="M520 420h660M520 470h660"/>
+    <path d="M540 420v130M640 420v130M740 420v130M840 420v130M940 420v130M1160 420v130"/>
+    <path d="M540 445l100-25M640 445l100-25M740 445l100-25M840 445l100-25"/>
+  </g>
+  <g stroke="#a9bccb" stroke-width="7" stroke-linecap="round" fill="none" opacity=".9">
+    <path d="M520 412h660"/>
+    <path d="M520 400h560q30 0 30-30V250"/>
+    <path d="M520 462h460"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M520 410h660"/>
+    <path d="M520 398h560"/>
+    <path d="M520 460h460"/>
+  </g>
+
+  <!-- horizontal separators -->
+  <g stroke="#8ea6b9" stroke-width="1.6" fill="url(#metalV)">
+    <rect x="300" y="470" width="230" height="70" rx="35"/>
+    <rect x="660" y="490" width="190" height="56" rx="28"/>
+  </g>
+  <g stroke="#8ea6b9" stroke-width="1.6" fill="none">
+    <path d="M330 540v26M500 540v26M690 546v20M820 546v20"/>
+    <path d="M318 566h40M480 566h40M676 566h30M806 566h30"/>
+    <path d="M415 470v-40h30v-26"/>
+    <path d="M755 490v-30"/>
+  </g>
+  <g fill="#ffffff" stroke="#8ea6b9" stroke-width="1.4">
+    <circle cx="380" cy="505" r="9"/><circle cx="455" cy="505" r="9"/>
+  </g>
+
+  <!-- storage tank -->
+  <g stroke="#9db3c4" stroke-width="1.6" fill="url(#metal)">
+    <path d="M60 560V470q90-34 180 0v90z"/>
+  </g>
+  <g stroke="#b8c9d6" stroke-width="1" fill="none"><path d="M60 495q90-30 180 0M60 525h180"/></g>
+
+  <!-- ground -->
+  <rect x="0" y="556" width="1600" height="204" fill="url(#ground)"/>
+  <path d="M0 556h1600" stroke="#c9d7e2" stroke-width="1.2"/>
+
+  <!-- foreground pipeline on supports -->
+  <g>
+    <path d="M-20 640 C 300 640, 520 612, 860 612 S 1400 600, 1620 598" stroke="#b6c7d4" stroke-width="40" fill="none" stroke-linecap="round"/>
+    <path d="M-20 634 C 300 634, 520 606, 860 606 S 1400 594, 1620 592" stroke="#ffffff" stroke-width="14" fill="none" opacity=".95"/>
+    <path d="M-20 652 C 300 652, 520 624, 860 624 S 1400 612, 1620 610" stroke="#9cb2c3" stroke-width="4" fill="none" opacity=".6"/>
+  </g>
+  <g stroke="#8ea6b9" stroke-width="2" fill="#e8eff4">
+    <path d="M150 660v40h44v-40"/>
+    <path d="M520 640v52h44v-52"/>
+    <path d="M900 630v56h44v-56"/>
+    <path d="M1300 622v60h44v-60"/>
+  </g>
+  <g fill="#9cb2c3"><rect x="164" y="618" width="16" height="44" rx="3" opacity=".55"/><rect x="534" y="600" width="16" height="44" rx="3" opacity=".55"/><rect x="914" y="590" width="16" height="44" rx="3" opacity=".55"/><rect x="1314" y="580" width="16" height="44" rx="3" opacity=".55"/></g>
+
+  <!-- gas wellhead (christmas tree) -->
+  <g transform="translate(1440 388)" stroke="#6f8ca3" stroke-width="1.8" fill="#ffffff">
+    <rect x="-34" y="150" width="68" height="18" rx="3" fill="#e3ebf1"/>
+    <rect x="-14" y="110" width="28" height="40"/>
+    <rect x="-22" y="96" width="44" height="14" rx="3"/>
+    <rect x="-12" y="40" width="24" height="56"/>
+    <rect x="-20" y="26" width="40" height="14" rx="3"/>
+    <rect x="-9" y="-10" width="18" height="36"/>
+    <circle cx="0" cy="-22" r="12"/>
+    <path d="M-12 -22h24M0 -34v24" fill="none"/>
+    <rect x="-17" y="56" width="34" height="18" rx="2" fill="#e3ebf1"/>
+    <path d="M12 66h60" fill="none" stroke-width="10" stroke="#b6c7d4" stroke-linecap="round"/>
+    <circle cx="44" cy="66" r="11"/>
+    <path d="M37 59l14 14M51 59l-14 14" fill="none"/>
+    <circle cx="-34" cy="66" r="9"/>
+    <path d="M-25 66h8" fill="none"/>
+    <circle cx="-30" cy="10" r="10" fill="#f4f7fa"/>
+    <path d="M-30 10l5-5" fill="none" stroke="#168fc5"/>
+    <path d="M-20 10h11" fill="none"/>
+  </g>
+
+  <!-- atmospheric haze on top -->
+  <rect width="1600" height="760" fill="url(#fadeTop)"/>
+</svg>

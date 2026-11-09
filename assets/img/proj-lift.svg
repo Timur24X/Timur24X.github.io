@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Иллюстрация: станок-качалка ШГН и установка ЭЦН">
+<defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5f9"/><stop offset="1" stop-color="#ffffff"/></linearGradient><linearGradient id="m" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d7e2ea"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#c9d7e2"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#b)"/>
+<path d="M0 360h800" stroke="#c9d7e2" stroke-width="1.5"/>
+<rect y="360" width="800" height="140" fill="#f1f5f8"/>
+<g stroke="#6f8ca3" stroke-width="2.2" fill="#fff" stroke-linejoin="round">
+ <path d="M150 360l70-190 70 190" fill="none"/>
+ <path d="M175 300h90" fill="none"/>
+ <rect x="80" y="160" width="300" height="20" rx="4" transform="rotate(-8 230 170)" fill="url(#m)"/>
+ <path d="M384 128q30 10 28 60l-6 56" fill="none"/>
+ <path d="M408 244v116" fill="none" stroke="#18344d" stroke-width="2"/>
+ <circle cx="220" cy="170" r="9"/>
+ <path d="M100 196l-6 60" fill="none"/>
+ <rect x="60" y="250" width="70" height="40" rx="6" fill="#e3ebf1"/>
+ <circle cx="95" cy="270" r="22" fill="#fff"/>
+ <rect x="40" y="320" width="130" height="40" fill="#e3ebf1"/>
+ <rect x="390" y="340" width="36" height="20" fill="#e3ebf1"/>
+</g>
+<g stroke="#6f8ca3" stroke-width="2" fill="url(#m)">
+ <path d="M600 360v130" fill="none" stroke="#9cb2c3" stroke-width="18"/>
+ <rect x="588" y="380" width="24" height="40" rx="3"/>
+ <rect x="588" y="424" width="24" height="30" rx="3"/>
+ <rect x="588" y="458" width="24" height="42" rx="3"/>
+ <rect x="575" y="330" width="50" height="30" rx="4" fill="#fff"/>
+</g>
+<g font-family="Manrope,Arial,sans-serif" font-size="18" font-weight="700" fill="#18344d" letter-spacing="1"><text x="190" y="420">ШГН</text><text x="640" y="430">ЭЦН</text></g>
+<path d="M620 400h40M620 440h40M620 478h40" stroke="#47c0df" stroke-width="2"/>
+</svg>

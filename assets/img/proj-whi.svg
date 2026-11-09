@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Иллюстрация: фонд газовых скважин и индикатор состояния скважины">
+<defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5f9"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#b)"/>
+<g stroke="#dce5ec" stroke-width="1"><path d="M0 100h800M0 200h800M0 300h800M0 400h800M160 0v500M320 0v500M480 0v500M640 0v500"/></g>
+<path d="M0 410h800" stroke="#c9d7e2" stroke-width="1.5"/>
+<g stroke="#6f8ca3" stroke-width="1.8" fill="#fff">
+ <g transform="translate(110 260)"><rect x="-26" y="132" width="52" height="16" rx="3" fill="#e3ebf1"/><rect x="-11" y="96" width="22" height="36"/><rect x="-17" y="84" width="34" height="12" rx="3"/><rect x="-9" y="36" width="18" height="48"/><rect x="-15" y="24" width="30" height="12" rx="3"/><circle cx="0" cy="8" r="10"/><path d="M9 60h44" stroke="#b6c7d4" stroke-width="8" stroke-linecap="round"/></g>
+ <g transform="translate(250 280)"><rect x="-22" y="112" width="44" height="14" rx="3" fill="#e3ebf1"/><rect x="-9" y="80" width="18" height="32"/><rect x="-14" y="70" width="28" height="10" rx="3"/><rect x="-8" y="30" width="16" height="40"/><circle cx="0" cy="18" r="9"/></g>
+ <g transform="translate(370 300)"><rect x="-20" y="92" width="40" height="14" rx="3" fill="#e3ebf1"/><rect x="-8" y="64" width="16" height="28"/><rect x="-13" y="56" width="26" height="9" rx="3"/><rect x="-7" y="26" width="14" height="30"/><circle cx="0" cy="16" r="8"/></g>
+</g>
+<g fill="#168fc5"><circle cx="110" cy="236" r="6"/><circle cx="250" cy="266" r="6" fill="#47c0df"/><circle cx="370" cy="290" r="6" fill="#f2a33a"/></g>
+<g transform="translate(600 230)">
+ <path d="M-120 0a120 120 0 0 1 240 0" fill="none" stroke="#dce5ec" stroke-width="22"/>
+ <path d="M-120 0a120 120 0 0 1 60-104" fill="none" stroke="#f2a33a" stroke-width="22" opacity=".55"/>
+ <path d="M-60-104a120 120 0 0 1 120 0" fill="none" stroke="#47c0df" stroke-width="22" opacity=".7"/>
+ <path d="M60-104a120 120 0 0 1 60 104" fill="none" stroke="#168fc5" stroke-width="22" opacity=".85"/>
+ <path d="M0 0L70-70" stroke="#18344d" stroke-width="4" stroke-linecap="round"/>
+ <circle r="10" fill="#18344d"/>
+ <text y="52" text-anchor="middle" font-family="Manrope,Arial,sans-serif" font-size="22" font-weight="700" fill="#18344d" letter-spacing="2">WELL HEALTH INDEX</text>
+</g>
+</svg>

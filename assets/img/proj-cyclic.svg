@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Иллюстрация: сравнение дросселирования и периодического режима работы скважины (качественная схема без числовых данных)">
+<defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef5f9"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#b)"/>
+<g stroke="#dce5ec"><path d="M80 120h660M80 200h660M80 280h660M80 360h660"/></g>
+<path d="M80 80v330h670" fill="none" stroke="#18344d" stroke-width="2"/>
+<path d="M740 404l10 6-10 6M74 90l6-10 6 10" fill="none" stroke="#18344d" stroke-width="2"/>
+<path d="M80 260h660" stroke="#9cb2c3" stroke-width="3" stroke-dasharray="10 8"/>
+<path d="M80 360h40v-200h90v200h70v-200h90v200h70v-200h90v200h70v-200h60" fill="none" stroke="#168fc5" stroke-width="4" stroke-linejoin="round"/>
+<path d="M120 160h90v200h-90z M280 160h90v200h-90z M440 160h90v200h-90z M600 160h90v200h-90z" fill="#47c0df" opacity=".12"/>
+<g font-family="Manrope,Arial,sans-serif" font-size="17" fill="#18344d" font-weight="600">
+ <rect x="470" y="40" width="16" height="4" fill="#168fc5"/><text x="494" y="48">периодический режим</text>
+ <rect x="470" y="66" width="16" height="4" fill="#9cb2c3"/><text x="494" y="74">дросселирование</text>
+ <text x="92" y="100" font-size="14" fill="#718394" font-weight="500">дебит</text>
+ <text x="700" y="436" font-size="14" fill="#718394" font-weight="500">время</text>
+</g>
+</svg>
