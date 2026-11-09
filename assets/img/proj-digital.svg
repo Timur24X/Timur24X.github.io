@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Иллюстрация: цифровая обработка промысловых данных, схема потоков данных">
+<defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#18344d"/><stop offset="1" stop-color="#1e4563"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#b)"/>
+<g stroke="#2c5677"><path d="M0 100h800M0 200h800M0 300h800M0 400h800M100 0v500M200 0v500M300 0v500M400 0v500M500 0v500M600 0v500M700 0v500"/></g>
+<g fill="none" stroke="#47c0df" stroke-width="2">
+ <path d="M150 250h120M410 250h110M410 250l110-110M410 250l110 110"/>
+</g>
+<g fill="#1e4563" stroke="#47c0df" stroke-width="2">
+ <rect x="70" y="200" width="160" height="100" rx="8"/>
+ <rect x="270" y="190" width="140" height="120" rx="8" fill="#168fc5" stroke="#8fdcf0"/>
+ <rect x="520" y="100" width="190" height="80" rx="8"/>
+ <rect x="520" y="210" width="190" height="80" rx="8"/>
+ <rect x="520" y="320" width="190" height="80" rx="8"/>
+</g>
+<g font-family="Manrope,Arial,sans-serif" fill="#eaf6fb" font-size="16" font-weight="600" text-anchor="middle">
+ <text x="150" y="246">Промысловые</text><text x="150" y="268">данные</text>
+ <text x="340" y="246" fill="#fff">Цифровые</text><text x="340" y="268" fill="#fff">инструменты</text>
+ <text x="615" y="146">Анализ</text><text x="615" y="256">Инженерные расчёты</text><text x="615" y="366">Отчётность</text>
+</g>
+</svg>
